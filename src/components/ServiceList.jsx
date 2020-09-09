@@ -5,34 +5,32 @@ const ServiceList = [
     {
         icon: <FiSmartphone />,
         title: 'Mobile First Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'I can bring your app ideas to life with a website that is both fast and responsive.'
     },
     {
         icon: <FiHardDrive />,
         title: 'API Creation & Integration',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'REST and SOAP API integration using Node.js and Postman.'
     },
     {
         icon: <FiDatabase />,
         title: 'Database Design',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Database architectures in MongoDB and MySQL with Mongoose and Sequelize ORMs.'
     },
     { 
         icon: <FiCloud />,
         title: 'Cloud Integration',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Deployment of MERN Stack applications using cloud platforms such as Heroku and AWS.'
+    },    {
+        icon: <FiDollarSign />,
+        title: 'E-commerce',
+        description: 'Integration with PayPal and Stripe using the most popular e-commerce platforms such as WebFlow and Shopify.'
     },
     { 
         icon: <FiCheckSquare />,
         title: 'Software Testing',
         description: 'Lets squash those bugs and get your software ready for production.'
-    },
-    {
-        icon: <FiDollarSign />,
-        title: 'E-commerce',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-
+    }
 ]
 
 

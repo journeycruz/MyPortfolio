@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { FiX, FiMenu } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
+import { css } from "emotion";
+
+const bgcolor = css`
+  background: #16355A;
+`
 
 const SocialShare = [
   { Social: <FaGithub />, link: "https://github.com/journeycruz" },
@@ -52,10 +57,9 @@ class Header extends Component {
         };
       }
     }
-    const { color = "default-color" } = this.props;
 
     return (
-      <header className={`header-area header-style-two header--fixed ${color}`}>
+      <header className={`header-area header-style-two header--fixed ${bgcolor}`}>
         <div className="header-wrapper">
           <div className="header-left d-flex align-items-center">
             <div className="logo">

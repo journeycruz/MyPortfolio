@@ -25,18 +25,11 @@ class AboutTabs extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          User experience design <span> - UI/UX</span>
-                          Delight the user and make it work.
-                        </li>
-                        <li>
-                          Web and user interface design
-                          <span> - Development</span>
-                          Websites, web experiences, ...
+                          Experience working with HTML, CSS, JavaScript, jQuery, Bootstrap, APIs, JSON, AJAX, Firebase, React.js, Heroku, Git, GitHub, AWS, MySQL, MongoDB, Mongoose, Sequelize, Handlebars, Node.js, Express.js, MVCs, sessions, test writing, algorithms, and data structures.
                         </li>
                         <li>
                           My technical experience, work ethic, and diligence
-                          make me an advantageous candidate for any development
-                          team.
+                          make me an advantageous candidate for any development team.
                         </li>
                       </ul>
                     </div>

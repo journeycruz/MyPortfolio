@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import { css } from "emotion";
+
+const input = css`
+ background: #bacfe6;
+`
 
 class ContactForm extends Component{
     constructor(props){
@@ -12,21 +17,20 @@ class ContactForm extends Component{
     }
     render(){
         return (
-            <div id="contact" className="contact-form--1">
+            <div id="contact" className="contact-form--1 bgDark">
                 <div className="container">
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-12 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">Hire Me.</h2>
-                                <p className="description">Let's get to work. Email me at: 
-                                    <a href="mailto:journey.cruz@gmail.com"> journey.cruz@gmail.com</a> </p>
+                                <p className="description">Let's get to work. Email me at: journey.cruz@gmail.com</p>
                             </div>
                             <div className="form-wrapper">
 
                                 <form>
                                     <label htmlFor="item01">
                                         Name:
-                                        <input
+                                        <input className={input}
                                             type="text"
                                             name="name"
                                             id="item01"
@@ -38,7 +42,7 @@ class ContactForm extends Component{
 
                                     <label htmlFor="item02">
                                         Email:
-                                        <input
+                                        <input className={input}
                                             type="text"
                                             name="email"
                                             id="item02"
@@ -50,7 +54,7 @@ class ContactForm extends Component{
 
                                     <label htmlFor="item03">
                                         Subject:
-                                        <input
+                                        <input className={input}
                                             type="text"
                                             name="subject"
                                             id="item03"
@@ -61,7 +65,7 @@ class ContactForm extends Component{
                                     </label>
                                     <label htmlFor="item04">
                                         Message:
-                                        <textarea
+                                        <textarea className={input}
                                             type="text"
                                             id="item04"
                                             name="message"

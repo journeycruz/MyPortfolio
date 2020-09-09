@@ -5,7 +5,7 @@ import Particles from "react-particles-js";
 import { css } from "emotion";
 
 const bgLight = css`
-    background: #c4d3e5;
+    background: #16355A;
 `
 
 const SlideList = [
@@ -50,7 +50,7 @@ class Jumbotron extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="designer-thumbnail text-center">
-                                        <img src="/assets/images/designer-avatar.png" alt="Slider Images" />
+                                        <img src="/assets/images/62083284.jpeg" alt="Slider Images" />
                                     </div>
                                 </div>
                                 <div className="col-lg-7 mt_md--40 mt_sm--40">

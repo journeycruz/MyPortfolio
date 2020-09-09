@@ -84,8 +84,7 @@
         }
         .thumbnail{
             position: absolute;
-            top: 0;
-            right: 0;
+
             height: 100%;
             
             @media #{$lg-layout} {
@@ -134,7 +133,7 @@
         p{
             &.description{
                 font-weight: 300;
-                color: #717173;
+                color: #93A2B3;
                 a{
                     color: rgba(29, 29, 36, 1);
                     &:hover{
@@ -151,6 +150,7 @@
     .thumbnail {
         position: relative;
         z-index: 2;
+        border: none;
         img{
             border-radius: 8px;
            
