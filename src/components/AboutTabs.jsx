@@ -55,6 +55,7 @@ class AboutTabs extends Component {
                           2016
                         </li>
                       </ul>
+                      <br />
                     </div>
                   </TabPanel>
 
@@ -71,6 +72,10 @@ class AboutTabs extends Component {
                       <br />
                       <br />
                       <br />
+                      <br />
+                      <br />
+                      <hr />
+                      <hr />
                     </div>
                   </TabPanel>
                 </Tabs>

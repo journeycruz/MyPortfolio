@@ -30,7 +30,7 @@ export default function HomePage() {
                       <AboutTabs tabStyle="tab-style--1" />
                     </div>
                     <br />
-                    <div className="rn-button-style--2 btn-solid">
+                    <div className="rn-button-style--2 btn-solid text-center">
                       <a
                         className="rn-button-style--2 btn-solid"
                         href="/assets/JourneyCruzResume2020.pdf"
