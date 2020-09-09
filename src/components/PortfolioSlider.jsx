@@ -45,19 +45,19 @@ const PortfolioList = [
         image: 'image-2',
         category: 'Node.js',
         title: 'README Generator',
-        href: 'https://notesappexpress.herokuapp.com/'
+        href: 'https://github.com/journeycruz/Node_README_Generator'
     },
     {
         image: 'image-1',
         category: 'ReactJS',
         title: 'Employee Directory',
-        href: 'https://notesappexpress.herokuapp.com/'
+        href: 'https://github.com/journeycruz/React_Employee_Directory'
     },
     {
         image: 'image-6',
         category: 'MySQL, Sequelize, Node.js, Bootstrap, CSS3, HTML5',
         title: 'Password Genie',
-        href: 'https://notesappexpress.herokuapp.com/'
+        href: 'https://github.com/noahnr/Password_Genie'
     },
     {
         image: 'image-4',
@@ -69,13 +69,13 @@ const PortfolioList = [
         image: 'image-3',
         category: 'Open Weather API, Bootstrap, CSS3',
         title: 'Weather Tracker',
-        href: 'https://notesappexpress.herokuapp.com/'
+        href: 'https://github.com/journeycruz/Weather_OpenWeatherMapAPI'
     },
     {
         image: 'image-5',
         category: 'OOP, Inquirer, Jest',
         title: 'Team Organizer',
-        href: 'https://notesappexpress.herokuapp.com/'
+        href: 'https://github.com/journeycruz/OOP_Team_Generator'
     }
 ]
 
@@ -109,7 +109,7 @@ class PortfolioSlider extends Component {
                                     <div className="content">
                                         <div className="inner">
                                             <p>{value.category}</p>
-                                            <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                            <h4>{value.title}</h4>
                                             <div className="portfolio-button">
                                                 <a className="rn-btn" href={value.href}>Case Study</a>
                                             </div>
