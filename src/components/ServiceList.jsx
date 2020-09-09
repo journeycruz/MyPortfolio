@@ -29,7 +29,7 @@ const ServiceList = [
     { 
         icon: <FiCheckSquare />,
         title: 'Software Testing',
-        description: 'Lets squash those bugs and get your software ready for production.'
+        description: 'Writing tests for optimized software performance using Jest and Node.js.'
     }
 ]
 
