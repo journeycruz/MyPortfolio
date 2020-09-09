@@ -22,7 +22,7 @@ class ContactForm extends Component{
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-12 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <h2 className="title">Hire Me.</h2>
+                                <h2 className="title">Hire Me</h2>
                                 <p className="description">Let's get to work. Email me at: journey.cruz@gmail.com</p>
                             </div>
                             <div className="form-wrapper">
