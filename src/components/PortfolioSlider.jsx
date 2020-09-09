@@ -81,8 +81,7 @@ const PortfolioList = [
 
 class PortfolioSlider extends Component {
     render(){
-        let title = 'Recent Projects',
-        description = 'Click on a link below to view the GitHub repository for that project.';
+        let title = 'Recent Projects';
         return (
             <div id="portfolio" className="portfolio-area ptb--120 bgDark">
             <div className="portfolio-sacousel-inner mb--55">
@@ -93,7 +92,6 @@ class PortfolioSlider extends Component {
                             <div className="col-lg-6">
                                 <div className="section-title">
                                     <h2>{title}</h2>
-                                    <p>{description}</p>
                                 </div>
                             </div>
                         </div>
