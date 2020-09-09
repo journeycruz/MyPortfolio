@@ -24,7 +24,7 @@ class Jumbotron extends Component {
                             params={{
                                 "particles": {
                                     "number": {
-                                        "value": 50
+                                        "value": 25
                                     },
                                     "size": {
                                         "value": 4
@@ -53,11 +53,11 @@ class Jumbotron extends Component {
                                         <img src="/assets/images/62083284.jpeg" alt="Slider Images" />
                                     </div>
                                 </div>
-                                <div className="col-lg-7 mt_md--40 mt_sm--40 pl-0">
+                                <div className="col-lg-7 mt_md--40 mt_sm--40">
                                     <div className={`inner ${value.textPosition}`}>
                                         <h1 className="title">Hi, I’m Journey Cruz <br />
                                             <TextLoop>
-                                                <span> Full Stack Developer.</span>
+                                                <span> Web Developer.</span>
                                                 <span> UX Designer.</span>
                                                 <span> Entrepreneur.</span>
                                             </TextLoop>

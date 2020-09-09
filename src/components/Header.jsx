@@ -7,6 +7,10 @@ import { css } from "emotion";
 const bgcolor = css`
   background: #16355A;
 `
+const lightSocial = css`
+  color: #93A2B3;
+`
+
 
 const SocialShare = [
   { Social: <FaGithub />, link: "https://github.com/journeycruz" },
@@ -98,7 +102,7 @@ class Header extends Component {
           </div>
           <div className="header-right">
             <div className="social-share-inner">
-              <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
+              <ul className={`social-share social-style--2 d-flex justify-content-start liststyle ${lightSocial}`}>
                 {SocialShare.map((val, i) => (
                   <li key={i}>
                     <a href={`${val.link}`}>{val.Social}</a>
