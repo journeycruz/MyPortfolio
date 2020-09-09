@@ -42,15 +42,15 @@ const portfolioSlick2 = {
 
 const PortfolioList = [
     {
-        image: 'image-1',
-        category: 'ReactJS',
-        title: 'Employee Directory',
-        href: 'https://notesappexpress.herokuapp.com/'
-    },
-    {
         image: 'image-2',
         category: 'Node.js',
         title: 'README Generator',
+        href: 'https://notesappexpress.herokuapp.com/'
+    },
+    {
+        image: 'image-1',
+        category: 'ReactJS',
+        title: 'Employee Directory',
         href: 'https://notesappexpress.herokuapp.com/'
     },
     {

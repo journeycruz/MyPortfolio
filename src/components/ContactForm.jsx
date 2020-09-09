@@ -1,20 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import { css } from "emotion";
+import emailjs from 'emailjs-com';
+
 
 const input = css`
  background: #bacfe6;
 `
 
-class ContactForm extends Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            rnName: '',
-            rnEmail: '',
-            rnSubject: '',
-            rnMessage: '',
-        };
-    }
+export default function ContactForm() {
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'template_8gpom8u', e.target, 'user_YR4oY7ZbrSRXqxpG8og64')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+        e.target.reset();
+      }
     render(){
         return (
             <div id="contact" className="contact-form--1 bgDark">
@@ -27,15 +31,13 @@ class ContactForm extends Component{
                             </div>
                             <div className="form-wrapper">
 
-                                <form>
+                                <form onSubmit={sendEmail}>
                                     <label htmlFor="item01">
                                         Name:
                                         <input className={input}
                                             type="text"
                                             name="name"
                                             id="item01"
-                                            value={this.state.rnName}
-                                            onChange={(e)=>{this.setState({rnName: e.target.value});}}
                                             placeholder="Your Name *"
                                         />
                                     </label>
@@ -46,8 +48,6 @@ class ContactForm extends Component{
                                             type="text"
                                             name="email"
                                             id="item02"
-                                            value={this.state.rnEmail}
-                                            onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
                                             placeholder="Your email *"
                                         />
                                     </label>
@@ -58,8 +58,6 @@ class ContactForm extends Component{
                                             type="text"
                                             name="subject"
                                             id="item03"
-                                            value={this.state.rnSubject}
-                                            onChange={(e)=>{this.setState({rnSubject: e.target.value});}}
                                             placeholder="Write a Subject"
                                         />
                                     </label>
@@ -69,8 +67,6 @@ class ContactForm extends Component{
                                             type="text"
                                             id="item04"
                                             name="message"
-                                            value={this.state.rnMessage}
-                                            onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
                                             placeholder="Your Message"
                                         />
                                     </label>
