@@ -111,7 +111,7 @@ class PortfolioSlider extends Component {
                                             <p>{value.category}</p>
                                             <h4>{value.title}</h4>
                                             <div className="portfolio-button">
-                                                <a className="rn-btn" href={value.href}>Case Study</a>
+                                                <a className="rn-btn" href={value.href}>View on GitHub</a>
                                             </div>
                                         </div>
                                     </div>
