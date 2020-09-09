@@ -19,7 +19,6 @@ export default function ContactForm() {
           });
         e.target.reset();
       }
-    render(){
         return (
             <div id="contact" className="contact-form--1 bgDark">
                 <div className="container">
@@ -78,6 +77,4 @@ export default function ContactForm() {
                 </div>
             </div>
         )
-    }
 }
-export default ContactForm;
