@@ -33,8 +33,8 @@ export default function HomePage() {
                     <div className="rn-button-style--2 btn-solid text-center">
                       <a
                         className="rn-button-style--2 btn-solid"
-                        href="/assets/JourneyCruzResume2020.pdf"
-                        download="/assets/JourneyCruzResume2020.pdf"
+                        href="/assets/JourneysResume.pdf"
+                        download="/assets/JourneysResume.pdf"
                       >
                                               Download My Resume
                       </a>
