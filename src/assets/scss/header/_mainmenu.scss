@@ -12,6 +12,7 @@ Mainmenu Area
             > li {
                 margin: 0 15px;
                 position: relative;
+                justify-content: right;
                 > a {
                     @extend %transition;
                     color: #c6c9d8;

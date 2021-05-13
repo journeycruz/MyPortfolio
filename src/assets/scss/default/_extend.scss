@@ -26,7 +26,7 @@ Common Css
 }
 
 .bodyColor {
-    color: #535353;
+    color: #1d1d1f;
 }
 
 %textwhite {
@@ -358,7 +358,6 @@ p:last-child {
 
 %gradientDefault {
     background: linear-gradient(to right, #f81f01 50%, #ee076e 50%);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

@@ -9,7 +9,7 @@ const SocialShare = [
 
 const Footer = () => {
     return (
-        <div className="footer-style-2 ptb--30 bg_image bg_image--1" data-black-overlay="6">
+        <div className="footer">
             <div className="wrapper text-center plr--50 plr_sm--20">
                 <div className="row justify-content-center">
                     <div className="row justify-content-center col-lg-12">
@@ -26,8 +26,8 @@ const Footer = () => {
                 <div className="row align-items-center text-center">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-center text-center mt_md--20 mt_sm--20">
-                            <div className="text">
-                                <p>Copyright © 2020 Journey Cruz. Built using ReactJS<img src="/assets/images/logo.svg" className="App-logo" alt="logo" /></p>
+                            <div className="text pb--20">
+                                <p>Copyright © 2021 Journey Cruz.</p>
                             </div>
                         </div>
                     </div>

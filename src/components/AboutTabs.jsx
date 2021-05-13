@@ -3,17 +3,17 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class AboutTabs extends Component {
   render() {
-    let tab1 = "Main skills",
-      tab2 = "Experience",
+    let tab1 = "What I Do",
+      tab2 = "Work History",
       tab3 = "Education & Certification";
     const { tabStyle } = this.props;
     return (
-      <div>
+      <div className="aboutMeSection">
         {/* Start Tabs Area */}
-        <div className="tabs-area">
-          <div className="container">
+        <div className="tabs-area m-0">
+          <div className="container col-lg-12">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="text-center">
                 <Tabs>
                   <TabList className={`${tabStyle}`}>
                     <Tab>{tab1}</Tab>
@@ -34,8 +34,46 @@ class AboutTabs extends Component {
                       </ul>
                     </div>
                   </TabPanel>
-
                   <TabPanel>
+                    <div className="single-tab-content">
+                      <div className="col-md-12"></div>
+                      <ul>
+                      <li>
+                          Freelance Web Developer - 2018 - Current: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus accumsan ullamcorper. Cras consequat justo sit amet magna laoreet efficitur. Phasellus sodales sem sed neque ultrices fringilla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus accumsan ullamcorper. Cras consequat justo sit amet magna laoreet efficitur. Phasellus sodales sem sed neque ultrices fringilla.
+                        </li>
+                        <br></br>
+                        <li>
+                          Electrician<span> - R & R Electric</span> 2018 -
+                          Current: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus accumsan ullamcorper. Cras consequat justo sit amet magna laoreet efficitur. Phasellus sodales sem sed neque ultrices fringilla.
+                        </li>
+                        <br></br>
+                        <li>
+                          Porter Supervisor
+                          <span> - 1st Call Cleaning Services</span> 2016 - 2018: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus accumsan ullamcorper. Cras consequat justo sit amet magna laoreet efficitur. Phasellus sodales sem sed neque ultrices fringilla.
+                        </li>
+                        <br></br>
+                        <li>
+                          Directional Driller
+                          <span> - Penlee Oil & Gas Consultants </span> 2013 -
+                          2016: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus accumsan ullamcorper. Cras consequat justo sit amet magna laoreet efficitur. Phasellus sodales sem sed neque ultrices fringilla.
+                        </li>
+                        <br></br>
+                      </ul>
+                      <div className="col-md-12"></div>
+                    </div>
+                  </TabPanel>
+                  <TabPanel>
+                    <div className="single-tab-content">
+                      <ul>
+                      <li>
+                          Certificate of Completion{" "}
+                          <span> - Full Stack Web Development Coding Boot Camp, UTSA</span>{" "}
+                          September 2020: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus accumsan ullamcorper. Cras consequat justo sit amet magna laoreet efficitur. Phasellus sodales sem sed neque ultrices fringilla.
+                        </li>
+                      </ul>
+                    </div>
+                  </TabPanel>
+                  {/* <TabPanel>
                     <div className="single-tab-content">
                       <ul>
                         <li>
@@ -55,7 +93,6 @@ class AboutTabs extends Component {
                           2016
                         </li>
                       </ul>
-                      <br />
                     </div>
                   </TabPanel>
 
@@ -68,16 +105,8 @@ class AboutTabs extends Component {
                           September 2020
                         </li>
                       </ul>
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
-                      <hr />
-                      <hr />
                     </div>
-                  </TabPanel>
+                  </TabPanel> */}
                 </Tabs>
               </div>
             </div>

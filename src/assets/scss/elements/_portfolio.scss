@@ -35,8 +35,7 @@
         cursor: pointer;
 
         &::before{
-            background-color: #009BDF;
-            background-image: linear-gradient(#009BDF 10%, #000000 100%);
+            background-color: transparent;
             position: absolute;
             content: "";
             top: 0;
@@ -64,22 +63,28 @@
         transition: transform .28s ease;
         z-index: 4;
         &.image-1{
-            background-image: url(/assets/images/ReactEmployeeDir.png);
+            background-image: url(/assets/images/empDir06whitebg.jpg);
         }
 
         &.image-2{
-            background-image: url(/assets/images/NodeReadMEGenerator.png);
+            background-image: url(/assets/images/readmeGenerator02.jpg);
         }
 
         &.image-3{
-            background-image: url(/assets/images/WeatherDashboard.png);
+            background-image: url(/assets/images/weatherapp03whitebg.jpg);
         }
 
         &.image-4 {
-            background-image: url(/assets/images/NoteTaker.png);
+            background-image: url(/assets/images/notetaker01whitebg.jpg);
         }
         &.image-5 {
-            background-image: url(/assets/images/TeamGenerator.png);
+            background-image: url(/assets/images/teamgeneratorcodeonmacbook.jpg);
+        }
+        &.image-6 {
+            background-image: url(/assets/images/pwgenie02whitebg.jpg);
+        }
+        &.image-7 {
+            background-image: url(/assets/images/chessgamerfinal.jpg);
         }
 
         &::after{
@@ -149,10 +154,11 @@
         }
         .inner {
             p {
-                color: #c6c9d8;
+                color: #ffffff;
                 font-size: 14px;
             }
             h4 {
+                color: #ffffff;
                 font-size: 24px;
                 line-height: 36px;
                 a{
@@ -161,7 +167,7 @@
             }
             .portfolio-button{
                 @extend %transition;
-                margin-top: 35px;
+                margin-top: 25px;
                 transition: 0.7s;
                 @media #{$large-mobile} {
                     margin-top: 25px;
@@ -261,9 +267,9 @@
     }
     &:hover{
         .thumbnail-inner{
-            transform: scale(1.08) translateZ(0);
+            transform: scale(1.01) translateZ(0);
             &::before{
-                opacity: 0.85;
+                opacity: 0.25;
             }
         }
         .thumbnail {

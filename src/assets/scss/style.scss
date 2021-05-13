@@ -64,115 +64,149 @@
 
 ***************************************************************/
 
-
 /**************************************
     Default Styles
 ***************************************/
-@import 'default/variables';
-@import 'default/mixins';
-@import 'default/reset';
-@import 'default/typography';
-@import 'default/extend';
-@import 'default/animations';
-@import 'default/shortcode';
-@import 'default/spacing';
-
-
+@import "default/variables";
+@import "default/mixins";
+@import "default/reset";
+@import "default/typography";
+@import "default/extend";
+@import "default/animations";
+@import "default/shortcode";
+@import "default/spacing";
 
 /**************************************
     Header Styles
 ***************************************/
 
-@import 'header/header';
-@import 'header/mainmenu';
-
+@import "header/header";
+@import "header/mainmenu";
 
 /**************************************
     Inner Styles
 ***************************************/
 
-@import 'common/breadcrump';
-@import 'common/section-title';
-@import 'common/button';
-@import 'common/pagination';
-@import 'common/socialicon';
-@import 'common/footer';
-
-
+@import "common/breadcrump";
+@import "common/section-title";
+@import "common/button";
+@import "common/pagination";
+@import "common/socialicon";
+@import "common/footer";
 
 /**************************************
     Elements Styles
 ***************************************/
 
-@import 'elements/portfolio';
-@import 'elements/service';
-@import 'elements/slider';
-@import 'elements/counterup';
-@import 'elements/testimonial';
-@import 'elements/brand';
-@import 'elements/team';
-@import 'elements/callto-action';
-@import 'elements/tab';
-@import 'elements/accordion';
-@import 'elements/list';
-@import 'elements/contact';
-@import 'elements/progress';
-@import 'elements/column';
-@import 'elements/404';
-@import 'elements/pricing';
-
-
+@import "elements/portfolio";
+@import "elements/service";
+@import "elements/slider";
+@import "elements/counterup";
+@import "elements/testimonial";
+@import "elements/brand";
+@import "elements/team";
+@import "elements/callto-action";
+@import "elements/tab";
+@import "elements/accordion";
+@import "elements/list";
+@import "elements/contact";
+@import "elements/progress";
+@import "elements/column";
+@import "elements/404";
+@import "elements/pricing";
 
 /**************************************
     Blog Styles
 ***************************************/
 
-@import 'blog/blog';
-@import 'blog/blog-details';
-
-
+@import "blog/blog";
+@import "blog/blog-details";
 
 /**************************************
     Template Styles
 ***************************************/
 
-@import 'template/about';
-@import 'template/portfolio-details';
-@import 'template/service-details';
-@import 'template/dark-version';
-@import 'template/preview';
-
-
-
+@import "template/about";
+@import "template/portfolio-details";
+@import "template/service-details";
+@import "template/dark-version";
+@import "template/preview";
 
 .App-logo {
-    height: 4.5vmin;
-    pointer-events: none;
-  }
+  height: 4.5vmin;
+  pointer-events: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 15s linear;
-    }
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
   }
+}
 
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-  .about-area {
-	  background: #16355A;
-  }
+.about-area {
+  background: #efefef;
+}
 
-  .bg_color--5 {
-	background: #16355A;
-  }
+.bg_color--5 {
+  background: #000000;
+}
 
-  .bgDark {
-	background: #16355A;
-  }
+.bgDark {
+  background: #f7f7f7;
+}
+
+.portfolioCarousel {
+  max-height: 5%;
+}
+.footer {
+  background-color: #000000;
+}
+
+.whiteTitle {
+  color: #ffffff;
+}
+
+.aboutMeSection {
+  height: 20%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.buttonBg {
+  background-color: #efefef;
+  padding-top: 30px;
+}
+
+#welcome {
+  color: #1d1d1f;
+  padding: 0px;
+  margin-bottom: 10px;
+  font-family: $body-font;
+  font-size: 18px;
+}
+
+.nav-center-container {
+float: right;
+}
+
+.contact {
+	font-family: $body-font;
+}
+
+label {
+	color: #efefef;
+	font-family: $body-font;
+}
+
+input {
+	font-family: $body-font;
+}

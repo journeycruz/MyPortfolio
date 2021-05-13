@@ -5,17 +5,21 @@ import ServiceList from "../components/ServiceList";
 import PortfolioSlider from "../components/PortfolioSlider";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
+import ReactNotification from "react-notifications-component";
+import "react-notifications-component/dist/theme.css";
 
 export default function HomePage() {
-  let title = "About Me",
+  let title = "About Me:",
     description =
-      "My passion is helping people reach larger audiences by creating websites that are fast, interactive, and responsive. I am a problem-solver with a background in project management, data analysis, and I love to find creative ways to incorporate animations into my designs. I want to work with other developers to create influential electronic products using ReactJS and the MERN stack.";
+      "Hi, I'm Journey, a coding bootcamp graduate from San Antonio, TX. I work hard and with integrity to help people reach larger audiences by creating websites that are fast, interactive, and responsive.";
 
   return (
     <div className="App">
+      <ReactNotification />
       <Jumbotron />
+      <PortfolioSlider />
       {/* Start About Area */}
-      <div id="about" className="fix">
+      <div id="about" className="fix text-center">
         <div className="about-area ptb--120  bg_color--1">
           <div className="about-wrapper">
             <div className="container">
@@ -24,38 +28,41 @@ export default function HomePage() {
                   <div className="about-inner inner">
                     <div className="section-title">
                       <h2 className="title">{title}</h2>
-                      <p className="description">{description}</p>
+                      <br></br>
+                      <p>{description}</p>
+                      <p>
+                        If you need a website <a href="#contact">contact me</a>{" "}
+                        and let's get to work!
+                      </p>
                     </div>
-                    <div className="row mt--30">
-                      <AboutTabs tabStyle="tab-style--1" />
+                    <br></br>
+                    <div>
+                      <div className="row text-center">
+                        <AboutTabs tabStyle="tab-style--1" />
+                      </div>
                     </div>
                     <br />
-                    <div className="rn-button-style--2 btn-solid text-center">
-                      <a
-                        className="rn-button-style--2 btn-solid"
-                        href="/assets/JourneysResume.pdf"
-                        download="/assets/JourneysResume.pdf"
-                      >
-                                              Download My Resume
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="buttonBg rn-button-style--2 btn-solid text-center">
+        <a
+          className="rn-button-style--2 btn-solid"
+          href="/assets/JourneysResume.pdf"
+          download="/assets/JourneysResume.pdf"
+        >
+          Download My Resume
+        </a>
+      </div>
+      <div>
         {/* Start Service Area  */}
         <div id="service" className="fix">
-          <div className="service-area creative-service-wrapper ptb--120 bg_color--5">
+          <div className="service-area creative-service-wrapper ptb--120 about-area">
             <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                    <h2 className="title">My Services</h2>
-                  </div>
-                </div>
-              </div>
               <div className="row creative-service">
                 <div className="col-lg-12">
                   <ServiceList
@@ -67,9 +74,8 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <PortfolioSlider />
-        <div id="contact" className="fix bgDark">
-          <div className="rn-contact-area ptb--120 bgDark">
+        <div id="contact" className="fix bg_color--5">
+          <div className="rn-contact-area ptb--120 bg_color--5">
             <ContactForm />
           </div>
         </div>
