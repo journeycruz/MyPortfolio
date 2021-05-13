@@ -27,7 +27,7 @@ const Footer = () => {
                     <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-center text-center mt_md--20 mt_sm--20">
                             <div className="text pb--20">
-                                <p>Copyright © 2021 Journey Cruz.</p>
+                                <p>Copyright © 2021 Journey Cruz</p>
                             </div>
                         </div>
                     </div>
