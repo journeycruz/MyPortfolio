@@ -94,7 +94,22 @@ ul{
     }
 }
 
+#certificate1 {
+    @media #{$laptop-device, $sm-layout, $md-layout, $lg-layout} {
+        width: 60%;
+        justify-content: center;
+        padding-top: 20px; 
+    }
+    @media #{$small-mobile, $smlg-device, $large-mobile} {
+        width: 90%;
+        justify-content: center;
+        padding-top: 20px;
+    }
+}
 
+.space {
+    height: 10px;
+}
 
 
 

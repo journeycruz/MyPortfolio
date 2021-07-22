@@ -17,7 +17,6 @@ export default function HomePage() {
     <div className="App">
       <ReactNotification />
       <Jumbotron />
-      <PortfolioSlider />
       {/* Start About Area */}
       <div id="about" className="fix text-center">
         <div className="about-area ptb--120  bg_color--1">
@@ -29,11 +28,7 @@ export default function HomePage() {
                     <div className="section-title">
                       <h2 className="title">{title}</h2>
                       <br></br>
-                      <p>{description}</p>
-                      <p>
-                        If you need a website <a href="#contact">contact me</a>{" "}
-                        and let's get to work!
-                      </p>
+                      <p className="pt--50 pb--50">{description}</p>
                     </div>
                     <br></br>
                     <div>
@@ -59,6 +54,7 @@ export default function HomePage() {
         </a>
       </div>
       <div>
+      <PortfolioSlider />
         {/* Start Service Area  */}
         <div id="service" className="fix">
           <div className="service-area creative-service-wrapper ptb--120 about-area">

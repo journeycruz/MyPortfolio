@@ -95,7 +95,7 @@ const PortfolioList = [
 
 class PortfolioSlider extends Component {
     render(){
-        let title = 'My Work:';
+        let title = 'Recent Work:';
         return (
             <div id="portfolio" className="portfolio-area ptb--120 about-area">
             <div className="portfolio-sacousel-inner mb--55">

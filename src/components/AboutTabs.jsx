@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class AboutTabs extends Component {
   render() {
-    let tab1 = "What I Do",
+    let tab1 = "Experience",
       tab2 = "Work History",
       tab3 = "Education & Certification";
     const { tabStyle } = this.props;
@@ -20,7 +20,7 @@ class AboutTabs extends Component {
                     <Tab>{tab2}</Tab>
                     <Tab>{tab3}</Tab>
                   </TabList>
-
+                  <div className="space"></div>
                   <TabPanel>
                     <div className="single-tab-content">
                       <ul>
@@ -64,13 +64,7 @@ class AboutTabs extends Component {
                   </TabPanel>
                   <TabPanel>
                     <div className="single-tab-content">
-                      <ul>
-                      <li>
-                          Certificate of Completion{" "}
-                          <span> - Full Stack Web Development Coding Boot Camp, UTSA</span>{" "}
-                          September 2020: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus accumsan ullamcorper. Cras consequat justo sit amet magna laoreet efficitur. Phasellus sodales sem sed neque ultrices fringilla.
-                        </li>
-                      </ul>
+                      <img id="certificate1" src="/assets/images/coding_certificate.jpg" alt="coding_certificate"/>
                     </div>
                   </TabPanel>
                   {/* <TabPanel>
