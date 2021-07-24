@@ -112,9 +112,10 @@ ul{
 }
 
 .softwareLI {
+    object-fit: cover;
     height: 50px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin-top: 30px;
 }
 
@@ -124,18 +125,25 @@ ul{
 }
 
 .softwareLIlarge {
+    object-fit: cover;
     height: 80px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin-top: 30px;
 }
 
 .softwareLIsmall {
+    object-fit: cover;
     height: 35px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
-
+#cbdLogo {
+    object-fit: cover;
+    max-height: 200px;
+    width: auto;
+    border-radius: 100%;
+}

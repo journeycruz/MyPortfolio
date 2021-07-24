@@ -16,7 +16,7 @@ const SlideList = [
   },
 ];
 
-const loopIntervals = [1000, 1000, 1000, 1000, 1000, 5000];
+const loopIntervals = [1000, 1000, 1000, 1000, 5000];
 
 class Jumbotron extends Component {
   render() {
@@ -78,13 +78,12 @@ class Jumbotron extends Component {
                   <div className="col-lg-6 mt_md--40 mt_sm--40">
                     <div className={`inner ${value.textPosition}`}>
                       <h1 className="title">
-                          Hi, I'm Journey <br />
+                          Journey Cruz <br />
                         <TextLoop springConfig={{ stiffness: 180, damping: 8 }} delay="1000" interval={loopIntervals} >
-                          <span>JavaScript&nbsp;</span>
                           <span>MongoDB&nbsp;</span>
-                          <span>Express&nbsp;</span>
-                          <span>Node.JS&nbsp;</span>
-                          <span>React.JS&nbsp;</span>
+                          <span>Express.js&nbsp;</span>
+                          <span>React.js&nbsp;</span>
+                          <span>Node.js&nbsp;</span>
                           <span>Full-Stack&nbsp;</span>
                         </TextLoop>
                         Developer

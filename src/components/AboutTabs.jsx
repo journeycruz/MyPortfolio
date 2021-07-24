@@ -27,17 +27,7 @@ class AboutTabs extends Component {
                         <ul>
                           <li className="text-center">
                             Experience working with the following software:
-                            {/* Experience working with the following software: HTML,
-                          CSS, JavaScript, jQuery, Bootstrap, APIs, JSON, AJAX,
-                          Firebase, React.js, Heroku, Git, GitHub, AWS, MySQL,
-                          MongoDB, Mongoose, Sequelize, Handlebars, Node.js,
-                          Express.js, MVCs, sessions, test writing, algorithms,
-                          and data structures. */}
                           </li>
-                          {/* <li>
-                          My technical experience, work ethic, and diligence
-                          make me an advantageous candidate for any development team.
-                        </li> */}
                         </ul>
                         <div className="row">
                           <ul className="col-md-6">
@@ -254,14 +244,14 @@ class AboutTabs extends Component {
                             </li>
                             <li>
                               <a
-                                href="https://sequelize.org/"
+                                href="https://www.npmjs.com/"
                                 rel="noopener noreferrer"
                                 target="_blank"
                               >
                                 <img
                                   className="softwareLI"
-                                  src="/assets/images/sequelize-logo.png"
-                                  alt="Sequelize"
+                                  src="/assets/images/npm-logo.png"
+                                  alt="NPM"
                                 />
                               </a>
                             </li>
@@ -288,14 +278,20 @@ class AboutTabs extends Component {
                       <div className="col-md-12"></div>
                       <ul>
                         <li>
-                          Frontend Developer - 2019 - Current: Communicated with
-                          product managers and UX designers to translate project
-                          requirements and business objectives into polished
-                          user interfaces. Improved and expanded project
-                          platforms using JavaScript to develop rich User
-                          Interfaces. Developed Application UIs via emerging
-                          Front End Technologies such as React, and SASS.
-                          Identified, documented and reported on technical
+                          <a href="https://www.cyanbirddesigns.com/" rel="noopener noreferrer" target="_blank"><img src="/assets/images/cbd_logo.jpg" alt="Cyan Bird Designs" id="cbdLogo"/></a>
+                        </li>
+                        <br />
+                        <li>Frontend Developer - Cyan Bird Designs</li>
+                        <li> 2019 - Current</li>
+                        <li>
+                          {" "}
+                          Communicated with product managers and UX designers to
+                          translate project requirements and business objectives
+                          into polished user interfaces. Improved and expanded
+                          project platforms using JavaScript to develop rich
+                          User Interfaces. Developed Application UIs via
+                          emerging Front End Technologies such as React, and
+                          SASS. Identified, documented and reported on technical
                           factors impacting interface performance. Collaborated
                           with design team to integrate UI features complying
                           with prescribed code standards and technical design
@@ -310,47 +306,19 @@ class AboutTabs extends Component {
                   </TabPanel>
                   <TabPanel>
                     <div className="single-tab-content">
-                      <img
-                        id="certificate1"
-                        src="/assets/images/coding_certificate.jpg"
-                        alt="coding_certificate"
-                      />
-                    </div>
-                  </TabPanel>
-                  {/* <TabPanel>
-                    <div className="single-tab-content">
                       <ul>
                         <li>
-                          Freelance Web Developer - 2018 - Current
+                          Coding Bootcamp Graduate - University of Texas At San
+                          Antonio - September, 2020
                         </li>
-                        <li>
-                          Electrician<span> - R & R Electric</span> 2018 -
-                          Current
-                        </li>
-                        <li>
-                          Porter Supervisor
-                          <span> - 1st Call Cleaning Services</span> 2016 - 2018
-                        </li>
-                        <li>
-                          Directional Driller
-                          <span> - Penlee Oil & Gas Consultants </span> 2013 -
-                          2016
-                        </li>
+                        <img
+                          id="certificate1"
+                          src="/assets/images/coding_certificate.jpg"
+                          alt="coding_certificate"
+                        />
                       </ul>
                     </div>
                   </TabPanel>
-
-                  <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          Certificate of Completion{" "}
-                          <span> - Full Stack Web Development Coding Boot Camp, UTSA</span>{" "}
-                          September 2020
-                        </li>
-                      </ul>
-                    </div>
-                  </TabPanel> */}
                 </Tabs>
               </div>
             </div>

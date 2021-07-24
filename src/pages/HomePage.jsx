@@ -45,6 +45,11 @@ export default function HomePage() {
         </div>
       </div>
       <div className="buttonBg rn-button-style--2 btn-solid text-center">
+          <p>
+            My technical experience, work ethic, and diligence make me an
+            advantageous candidate for any development team.
+          </p>
+        <br />
         <a
           className="rn-button-style--2 btn-solid"
           href="/assets/JourneyCruzResume2021.PDF"
@@ -54,7 +59,7 @@ export default function HomePage() {
         </a>
       </div>
       <div>
-      <PortfolioSlider />
+        <PortfolioSlider />
         {/* Start Service Area  */}
         <div id="service" className="fix">
           <div className="service-area creative-service-wrapper ptb--120 about-area">
