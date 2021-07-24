@@ -36,7 +36,7 @@ const ServiceList = [
     icon: <FiDollarSign />,
     title: "E-commerce",
     description:
-      "Integration with PayPal and Stripe using the most popular e-commerce platforms such as WebFlow and Shopify.",
+      "Integration with PayPal and Stripe using the most popular e-commerce platforms such as Shopify.",
   },
   {
     icon: <FiCheckSquare />,

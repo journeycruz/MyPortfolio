@@ -11,7 +11,7 @@ import "react-notifications-component/dist/theme.css";
 export default function HomePage() {
   let title = "About Me:",
     description =
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique ligula ut arcu porta tristique. Sed ut libero quis dui luctus varius sit amet maximus enim. Proin non ex ac sem consectetur ultricies in non nibh. Cras lacinia ullamcorper nunc, eu rutrum massa viverra vitae. Sed consequat lacus eget semper efficitur. Integer lobortis nisl ac fermentum dignissim. Nunc mattis odio id sagittis porttitor. Praesent mattis vitae libero et porttitor.";
+      "Hi I'm Journey, an innovative web developer with a see a problem, solve a problem work ethic. I am a creative Front End Developer adept at building responsive websites that meet customer needs. Specializing in collaborating with ecommerce customers to gather requirements, produce plans and improve designs for usability and functionality. Fully proficient in JavaScript, Bootstrap and React. I currently live and work in San Antonio, TX but I look forward to working with developers from all over the world.";
 
   return (
     <div className="App">

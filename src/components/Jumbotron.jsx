@@ -16,7 +16,7 @@ const SlideList = [
   },
 ];
 
-const loopIntervals = [250, 250, 250, 250, 250, 5000];
+const loopIntervals = [1000, 1000, 1000, 1000, 1000, 5000];
 
 class Jumbotron extends Component {
   render() {
