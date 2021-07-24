@@ -35,7 +35,7 @@
         cursor: pointer;
 
         &::before{
-            background-color: transparent;
+            background-color: rgb(102,189,209);
             position: absolute;
             content: "";
             top: 0;
@@ -958,4 +958,10 @@ Portfolio Style Three
         }
     }
 
+}
+
+.innerPortfolioText {
+    background-color: rgba(14,14,14,.6);
+    padding: 5%;
+    border-radius: 5px;
 }

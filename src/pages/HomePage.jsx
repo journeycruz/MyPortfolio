@@ -11,7 +11,7 @@ import "react-notifications-component/dist/theme.css";
 export default function HomePage() {
   let title = "About Me:",
     description =
-      "Hi I'm Journey, an innovative web developer with a see a problem, solve a problem work ethic. I am a creative Full-Stack Developer adept at building responsive websites that meet customer needs. Specializing in collaborating with ecommerce customers to gather requirements, produce plans and improve designs for usability and functionality. Fully proficient in JavaScript, Bootstrap and React. I currently live and work in San Antonio, TX but I look forward to working with developers from all over the world.";
+      "Hi I'm Journey, an innovative web developer with a see a problem, solve a problem work ethic. I am a creative Full-Stack Developer adept at building responsive websites that meet customer needs. Specializing in collaborating with ecommerce customers to gather requirements, produce plans, and improve designs for usability and functionality. Fully proficient in JavaScript, Bootstrap, and React. I currently live and work in San Antonio, TX and I look forward to working with developers from all over the world.";
 
   return (
     <div className="App">

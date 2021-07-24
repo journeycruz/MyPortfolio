@@ -27,7 +27,7 @@ export default function ContactForm() {
           console.log(result.text);
           store.addNotification({
             title: "Message Sent!",
-            message: "Thank you for reaching out. I will get back to you soon!",
+            message: "Message sent! I will get back to you soon.",
             type: "success",
             insert: "top",
             container: "bottom-right",
@@ -43,7 +43,7 @@ export default function ContactForm() {
         (error) => {
           console.log(error.text);
           store.addNotification({
-            title: "Message Not Sent!",
+            title: "Sorry, your message could not be sent at this time.",
             message: (error.text),
             type: "danger",
             insert: "top",

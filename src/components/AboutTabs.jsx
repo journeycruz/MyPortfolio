@@ -284,7 +284,6 @@ class AboutTabs extends Component {
                         <li>Frontend Developer - Cyan Bird Designs</li>
                         <li> 2019 - Current</li>
                         <li>
-                          {" "}
                           Communicated with product managers and UX designers to
                           translate project requirements and business objectives
                           into polished User Interfaces. Improved and expanded
