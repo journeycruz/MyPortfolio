@@ -287,16 +287,16 @@ class AboutTabs extends Component {
                           {" "}
                           Communicated with product managers and UX designers to
                           translate project requirements and business objectives
-                          into polished user interfaces. Improved and expanded
+                          into polished User Interfaces. Improved and expanded
                           project platforms using JavaScript to develop rich
-                          User Interfaces. Developed Application UIs via
-                          emerging Front End Technologies such as React, and
-                          SASS. Identified, documented and reported on technical
+                          UIs. Developed Application UIs via
+                          emerging Front End Technologies such as React and
+                          SASS. Identified, documented, and reported on technical
                           factors impacting interface performance. Collaborated
                           with design team to integrate UI features complying
                           with prescribed code standards and technical design
-                          guidelines. Designed UIs within frontend web
-                          frameworks such as Bootstrap, exploiting associated
+                          guidelines. Designed UIs with frontend web
+                          frameworks such as Bootstrap and React, exploiting associated
                           templates and tools to shorten development times.
                         </li>
                         <br></br>
