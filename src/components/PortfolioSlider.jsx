@@ -45,7 +45,7 @@ const PortfolioList = [
   {
     image: "image-7",
     category:
-      "Play server authoritative chess games with your friends to earn bragging rights. Customize the board to match your style. Chat with other players using Chat.io. Lock games to limit who can join.",
+      "Play server authoritative chess games with your friends. Customize the board to match your style. Chat with other players using Chat.io. Lock games to limit who can join.",
     title: "Chess Masta",
     href1: "https://github.com/shmoesolid/Chess-Masta",
     href2: "https://chess-masta.herokuapp.com/",
@@ -53,7 +53,7 @@ const PortfolioList = [
   {
     image: "image-6",
     category:
-      "Generate secure passwords and store them in a secure MongoDB database. Uses Passport for secure login and BCrypt password hasher to ensure any stored passwords remain encrypted.",
+      "Generate passwords and store them in a MongoDB database. Uses Passport for secure login and BCrypt password hasher to ensure any stored passwords remain encrypted.",
     title: "Password Genie",
     href1: "https://github.com/noahnr/Password_Genie",
     href2: "#",
@@ -61,7 +61,7 @@ const PortfolioList = [
   {
     image: "image-3",
     category:
-      "This web application makes an AJAX call to the Open Weather Map API and displays information such as Temperature, Humidity, Wind Speed, and UV Index for any city around the world.",
+      "Makes an AJAX call to the Open Weather Map API and displays information such as Temperature, Humidity, Wind Speed, and UV Index for any city.",
     title: "Weather Tracker",
     href1: "https://github.com/journeycruz/Weather_OpenWeatherMapAPI",
     href2: "https://journeycruz.github.io/Weather_OpenWeatherMapAPI/",
@@ -85,7 +85,7 @@ const PortfolioList = [
   {
     image: "image-4",
     category:
-      "Take notes on the go using this handy note keeper. Powered by Express.js this fully responsive Bootstrap layout allows users to use this application on any device regardless of screen size.",
+      "Take notes on the go using this handy note keeper. Powered by Express.js this fully responsive Bootstrap application can be used on any device.",
     title: "Note Taker",
     href1: "https://github.com/journeycruz/Notes_App",
     href2: "https://notesappexpress.herokuapp.com/",
@@ -93,7 +93,7 @@ const PortfolioList = [
   {
     image: "image-5",
     category:
-      "Download this Node.js application and follow the prompts in the terminal to write an HTML document listing roles and contact information cards for all team members on your next project.",
+      "Node.js application that prompts a user with questions and writes an HTML document listing roles and contact information cards for all team members on your next project.",
     title: "Team Organizer",
     href1: "https://github.com/journeycruz/OOP_Team_Generator",
     href2: "https://github.com/journeycruz/OOP_Team_Generator",
