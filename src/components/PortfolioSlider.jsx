@@ -44,52 +44,52 @@ const PortfolioList = [
 
     {
         image: 'image-1',
-        category: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo tortor a ex lacinia malesuada.',
+        category: 'Track Employees by storing them in this organized Bootstrap Table. Sort alphabetically by first or last name, or search for an employee with the built in search bar.',
         title: 'Employee Directory',
         href1: 'https://github.com/journeycruz/React_Employee_Directory',
-        href2: 'https://github.com/journeycruz/React_Employee_Directory'
+        href2: 'https://react-employee-directory-20.herokuapp.com/'
     },
     {
         image: 'image-6',
-        category: 'MySQL, Sequelize, Node.js, Bootstrap, CSS3, HTML5',
+        category: 'Generate secure passwords and store them in a secure MongoDB database. Uses Passport for secure login and BCrypt password hasher to ensure any stored passwords remain encrypted.',
         title: 'Password Genie',
         href1: 'https://github.com/noahnr/Password_Genie',
-        href2: 'https://github.com/journeycruz/React_Employee_Directory'
+        href2: '#'
     },
     {
         image: 'image-4',
-        category: 'Node.js, Express.js',
+        category: 'Take notes on the go with Express.js using this handy note keeper. Fully Responsive design allows users to use this application on any device regardless of screen size.',
         title: 'Note Taker',
-        href1: 'https://notesappexpress.herokuapp.com/',
-        href2: 'https://github.com/journeycruz/React_Employee_Directory'
+        href1: 'https://github.com/journeycruz/Notes_App',
+        href2: 'https://notesappexpress.herokuapp.com/'
     },
     {
         image: 'image-3',
-        category: 'Open Weather API, Bootstrap, CSS3',
+        category: 'Communicates with the Open Weather Map API and displays information such as Temperature, Humidity, Wind Speed, and UV Index for any given city around the world. ',
         title: 'Weather Tracker',
         href1: 'https://github.com/journeycruz/Weather_OpenWeatherMapAPI',
-        href2: 'https://github.com/journeycruz/React_Employee_Directory'
+        href2: 'https://journeycruz.github.io/Weather_OpenWeatherMapAPI/'
     },
     {
         image: 'image-5',
-        category: 'OOP, Inquirer, Jest',
+        category: 'Download this Node.js application and follow the prompts in the terminal to write an html document containing roles, and contact information for all team members on your next project.',
         title: 'Team Organizer',
         href1: 'https://github.com/journeycruz/OOP_Team_Generator',
-        href2: 'https://github.com/journeycruz/React_Employee_Directory'
+        href2: 'https://github.com/journeycruz/OOP_Team_Generator'
     },
     {
         image: 'image-2',
-        category: 'Node.js',
+        category: 'Node.js application that allows users to create README.md files quickly and easily. Includes the option to link a GitHub Repository, and select the best license for your project.',
         title: 'README Generator',
         href1: 'https://github.com/journeycruz/Node_README_Generator',
         href2: 'https://github.com/journeycruz/React_Employee_Directory'
     },
     {
         image: 'image-7',
-        category: 'MongoDB, Bootstrap, Chat.io',
+        category: 'Play server authoritative chess games with your friends. Customize the board to match your style. Chat with other players using Chat.io. Lock games to limit who can join.',
         title: 'Chess Masta',
         href1: 'https://github.com/shmoesolid/Chess-Masta',
-        href2: 'https://github.com/journeycruz/React_Employee_Directory'
+        href2: 'https://chess-masta.herokuapp.com/'
     }
 ]
 
