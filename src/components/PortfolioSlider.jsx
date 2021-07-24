@@ -136,7 +136,7 @@ class PortfolioSlider extends Component {
                               rel="noopener noreferrer"
                               href={value.href1}
                             >
-                              View Source Code
+                              View Code (GitHub)
                             </a>
                           </div>
                           <div className="portfolio-button">

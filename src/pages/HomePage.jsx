@@ -52,8 +52,8 @@ export default function HomePage() {
         <br />
         <a
           className="rn-button-style--2 btn-solid"
-          href="/assets/JourneyCruzResume2021.PDF"
-          download="/assets/JourneyCruzResume2021.PDF"
+          href="/assets/images/Journey_Cruz_Resume_2021.PDF"
+          download="/assets/images/Journey_Cruz_Resume_2021.PDF"
         >
           Download My Resume
         </a>
