@@ -11,7 +11,7 @@ import "react-notifications-component/dist/theme.css";
 export default function HomePage() {
   let title = "About Me:",
     description =
-      "Hi I'm Journey, an innovative web developer with a see a problem, solve a problem work ethic. I am a creative Full-Stack Developer adept at building responsive websites that meet customer needs. Specializing in collaborating with ecommerce customers to gather requirements, produce plans, and improve designs for usability and functionality. Fully proficient in JavaScript, Bootstrap, and React. I currently live and work in San Antonio, TX and I look forward to working with developers from all over the world.";
+      "Journey is an innovative web developer with a keen problem solving talent. He is a creative Full-Stack Developer adept at building responsive websites and a has a natural eye for design that meets a customer's experience needs. Specializing in collaborating with ecommerce customers to gather requirements, produce plans, and improve designs for usability and functionality. Fully proficient in JavaScript, Bootstrap, and React. Journey is a data driven designer who uses methodical processes like customer journey mapping and experience analytics intelligence."
 
   return (
     <div className="App">
@@ -27,8 +27,7 @@ export default function HomePage() {
                   <div className="about-inner inner">
                     <div className="section-title">
                       <h2 className="title">{title}</h2>
-                      <br></br>
-                      <p className="pt--50 pb--50">{description}</p>
+                      <p className="pt--30 pb--30">{description}</p>
                     </div>
                     <br></br>
                     <div>
