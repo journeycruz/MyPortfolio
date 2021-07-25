@@ -13,7 +13,7 @@ const ServiceList = [
     icon: <FiSmartphone />,
     title: "Mobile First Website Development",
     description:
-      "I can bring your app ideas to life with a website that is both fast and responsive.",
+      "Bring your app ideas to life with a website that is both fast and responsive.",
   },
   {
     icon: <FiHardDrive />,
@@ -42,7 +42,7 @@ const ServiceList = [
     icon: <FiCheckSquare />,
     title: "Software Testing",
     description:
-      "Writing tests for optimized software performance using Jest and Node.js.",
+      "Test writing for optimized software performance using Jest and Node.js.",
   },
 ];
 
@@ -65,7 +65,7 @@ class ServiceThree extends Component {
         <div className="row">
           {ServiceContent.map((val, i) => (
             <div className={`${column}`} key={i}>
-              <a href="/service-details">
+              <span>
                 <div className="service service__style--2">
                   <div className="icon">{val.icon}</div>
                   <div className="content">
@@ -73,7 +73,7 @@ class ServiceThree extends Component {
                     <p>{val.description}</p>
                   </div>
                 </div>
-              </a>
+              </span>
             </div>
           ))}
         </div>

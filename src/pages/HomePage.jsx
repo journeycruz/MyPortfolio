@@ -9,9 +9,9 @@ import ReactNotification from "react-notifications-component";
 import "react-notifications-component/dist/theme.css";
 
 export default function HomePage() {
-  let title = "About Me:",
+  let title = "About:",
     description =
-      "Journey is an innovative web developer with a keen problem solving talent. He is a creative Full-Stack Developer adept at building responsive websites and a has a natural eye for design that meets a customer's experience needs. Specializing in collaborating with ecommerce customers to gather requirements, produce plans, and improve designs for usability and functionality. Fully proficient in JavaScript, Bootstrap, and React. Journey is a data driven designer who uses methodical processes like customer journey mapping and experience analytics intelligence."
+      "Journey is an innovative web developer with a keen problem solving talent. He is a creative Full-Stack Developer adept at building responsive websites and a has a natural eye for design that meets a customer's experience needs. Specializing in collaborating with ecommerce customers to gather requirements, produce plans, and improve designs for usability and functionality. Fully proficient in JavaScript, Bootstrap, and React. Journey's technical experience, work ethic, and diligence make him an advantageous candidate for any development team."
 
   return (
     <div className="App">
@@ -44,9 +44,8 @@ export default function HomePage() {
         </div>
       </div>
       <div className="buttonBg rn-button-style--2 btn-solid text-center">
-          <p>
-            My technical experience, work ethic, and diligence make me an
-            advantageous candidate for any development team.
+          <p className="pl--25 pr--25">
+            Journey is a data driven designer who uses methodical processes like customer journey mapping and experience analytics intelligence to create modern, user-centered designs.
           </p>
         <br />
         <a
@@ -54,7 +53,7 @@ export default function HomePage() {
           href="/assets/images/Journey_Cruz_Resume_2021.PDF"
           download="/assets/images/Journey_Cruz_Resume_2021.PDF"
         >
-          Download My Resume
+          Download Journey's Resume
         </a>
       </div>
       <div>

@@ -307,7 +307,7 @@ class AboutTabs extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          Coding Bootcamp Graduate - University of Texas At San
+                          Coding Bootcamp - University of Texas At San
                           Antonio - September, 2020
                         </li>
                         <img

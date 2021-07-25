@@ -56,7 +56,7 @@ const PortfolioList = [
       "Generate passwords and store them in a MongoDB database. Uses Passport for secure login and BCrypt password hasher to ensure any stored passwords remain encrypted.",
     title: "Password Genie",
     href1: "https://github.com/noahnr/Password_Genie",
-    href2: "#",
+    href2: " https://arcane-inlet-71435.herokuapp.com/",
   },
   {
     image: "image-3",
