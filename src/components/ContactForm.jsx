@@ -7,6 +7,10 @@ import "react-notifications-component/dist/theme.css";
 const input = css`
   background: #f6f6f6;
 `;
+const sendBtnContainer = css`
+  background: #000000;
+  text-align: center;
+`;
 var whiteTxt = {
   color: "#efefef",
 };
@@ -44,7 +48,7 @@ export default function ContactForm() {
           console.log(error.text);
           store.addNotification({
             title: "Sorry, your message could not be sent at this time.",
-            message: (error.text),
+            message: error.text,
             type: "danger",
             insert: "top",
             container: "bottom-right",
@@ -119,15 +123,17 @@ export default function ContactForm() {
                     placeholder="Message*"
                   />
                 </label>
-                <button
-                  className="rn-button-style--2 btn-solid"
-                  type="submit"
-                  value="submit"
-                  name="submit"
-                  id="mc-embedded-subscribe"
-                >
-                  Send
-                </button>
+                <div className={sendBtnContainer}>
+                  <button
+                    className="rn-button-style--2 btn-solid"
+                    type="submit"
+                    value="submit"
+                    name="submit"
+                    id="mc-embedded-subscribe"
+                  >
+                    Send
+                  </button>
+                </div>
               </form>
             </div>
           </div>
