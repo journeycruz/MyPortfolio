@@ -2,7 +2,6 @@
     Slider Area 
 ======================*/
 
-
 @media #{$sm-layout} {
     .bg_image--31 {
         background-position: 67% center !important;
@@ -15,7 +14,6 @@
 .slider-fixed--height {
     min-height: 1080px;
     width: 100%;
-    
     @media #{$laptop-device} {
         min-height: 900px;
     }
@@ -34,6 +32,7 @@
 /*----------------------
 Slider Default Style 
 ------------------------*/
+
 .slide {
     .inner {
         padding-top: 100px;
@@ -100,7 +99,6 @@ Slider Default Style
             }
         }
     }
-
     &.slide-style-2 {
         padding-top: 230px;
         padding-bottom: 284px;
@@ -109,8 +107,6 @@ Slider Default Style
             padding-top: 150px;
             padding-bottom: 150px;
         }
-        
-
         &.fullscreen {
             min-height: 950px;
             @media #{$laptop-device} {
@@ -128,7 +124,6 @@ Slider Default Style
                 min-height: auto;
             }
         }
-
         &.slider-box-content {
             height: 650px;
             @media #{$lg-layout} {
@@ -141,7 +136,6 @@ Slider Default Style
                 height: auto;
             }
         }
-
         @media #{$lg-layout} {
             padding-top: 160px;
             padding-bottom: 170px;
@@ -152,7 +146,6 @@ Slider Default Style
             padding-bottom: 150px;
             min-height: auto;
         }
-
         @media #{$sm-layout} {
             padding-top: 150px;
             padding-bottom: 150px;
@@ -176,7 +169,7 @@ Slider Default Style
             @media #{$lg-layout} {
                 padding-top: 30px;
             }
-            > span {
+            >span {
                 color: #fff;
                 font-size: 15px;
                 text-transform: uppercase;
@@ -184,17 +177,14 @@ Slider Default Style
                 display: block;
                 margin-bottom: 9px;
             }
-
             h1 {
                 &.title {
                     color: #ffffff;
                     font-size: 100px;
                     font-weight: 900;
-                    
                     @media #{$lg-layout} {
                         font-size: 72px;
                     }
-
                     @media #{$md-layout} {
                         font-size: 60px;
                         margin-bottom: 18px;
@@ -205,7 +195,6 @@ Slider Default Style
                     }
                 }
             }
-
             p {
                 &.description {
                     color: #c6c9d8;
@@ -251,8 +240,7 @@ Slider Default Style
                 }
             }
         }
-
-        &.without-overlay{
+        &.without-overlay {
             .inner {
                 p {
                     &.description {
@@ -262,8 +250,7 @@ Slider Default Style
                 }
             }
         }
-
-        &.slider-paralax{
+        &.slider-paralax {
             @media #{$laptop-device} {
                 height: auto;
                 padding-top: 150px;
@@ -271,10 +258,9 @@ Slider Default Style
             }
         }
     }
-
     &.slider-style-3 {
         .inner {
-            > span {
+            >span {
                 color: #FEFDFE;
                 font-size: 15px;
                 text-transform: uppercase;
@@ -295,24 +281,20 @@ Slider Default Style
                     line-height: 65px;
                     text-transform: inherit;
                     width: 70%;
-
                     @media #{$lg-layout} {
                         font-size: 70px;
                     }
-
                     @media #{$md-layout} {
                         font-size: 60px;
                         line-height: 77px;
                         width: 85%;
                     }
-
                     @media #{$sm-layout} {
                         font-size: 42px;
                         line-height: 57px;
                         width: 100%;
                     }
-
-                    span{
+                    span {
                         color: $theme-color;
                     }
                 }
@@ -320,23 +302,23 @@ Slider Default Style
         }
     }
 }
+
 .slider-wrapper {
-    &.color-white{
-        .inner{
-            p{
-                &.description{
+    &.color-white {
+        .inner {
+            p {
+                &.description {
                     color: #ffffff;
                 }
             }
         }
     }
-    .service-wrapper{
+    .service-wrapper {
         @media #{$sm-layout} {
             margin-bottom: -20px;
         }
     }
 }
-
 
 .react-parallax {
     img {
@@ -344,9 +326,11 @@ Slider Default Style
     }
 }
 
+
 /*-------------------------
 Personal Portfolio  
 --------------------------*/
+
 .personal-portfolio-slider {
     position: relative;
     @media #{$sm-layout} {
@@ -379,10 +363,10 @@ Personal Portfolio
             opacity: 0.7;
         }
     }
-
 }
+
 .slide {
-    &.personal-portfolio-slider ,
+    &.personal-portfolio-slider,
     &.designer-portfolio {
         &.slider-style-3 {
             @media #{$sm-layout} {
@@ -396,15 +380,15 @@ Personal Portfolio
                 min-width: auto;
                 height: auto;
             }
-            .inner{
+            .inner {
                 @media #{$sm-layout} {
                     padding-top: 56px;
                 }
                 @media #{$md-layout} {
                     padding-top: 76px;
                 }
-                h1{
-                    &.title{
+                h1 {
+                    &.title {
                         @media #{$sm-layout} {
                             font-size: 32px;
                             line-height: 49px;
@@ -444,17 +428,14 @@ Personal Portfolio
             }
         }
     }
-    &.designer-portfolio{
+    &.designer-portfolio {
         height: 700px;
-
         @media #{$md-layout} {
             height: auto;
         }
-
         @media #{$sm-layout} {
             height: auto;
         }
-
         &.slider-style-3 {
             @media #{$md-layout} {
                 height: auto;
@@ -478,9 +459,9 @@ Personal Portfolio
                     padding: 0;
                     justify-content: center;
                     border: 14px solid #fff;
-                    width: 300px;
-                    height: 300px;
-                    box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 20px 40px rgba(255,255,255,0.15);
+                    width: 350px;
+                    height: 350px;
+                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 20px 40px rgba(255, 255, 255, 0.15);
                     z-index: 2;
                     @media #{$large-mobile} {
                         width: 200px;
@@ -499,7 +480,6 @@ Personal Portfolio
         }
     }
 }
-
 
 
 /*--------------------------
@@ -529,12 +509,12 @@ Personal Portfolio
         height: 100%;
         z-index: -1;
     }
-    .inner{
+    .inner {
         position: relative;
         z-index: 2;
     }
-    &[data-black-overlay]{
-        &::before{
+    &[data-black-overlay] {
+        &::before {
             z-index: 1;
         }
     }
@@ -559,10 +539,11 @@ Personal Portfolio
         }
     }
 }
+
 .slide {
-    &.slide-style-2{
-        &.slider-video-bg{
-            .inner{
+    &.slide-style-2 {
+        &.slider-video-bg {
+            .inner {
                 .title {
                     font-size: 60px;
                     line-height: 80px;
@@ -581,6 +562,7 @@ Personal Portfolio
         }
     }
 }
+
 
 /* ---------------------------
     Slider Creative Agency
@@ -616,6 +598,7 @@ Personal Portfolio
     }
 }
 
+
 /*-------------------------
 For Slider Service 
 ---------------------------*/
@@ -626,7 +609,6 @@ For Slider Service
         @media #{$lg-layout} {
             margin-top: 20px;
         }
-        
         @media #{$laptop-device} {
             margin-top: 0px;
         }
@@ -641,6 +623,7 @@ For Slider Service
         }
     }
 }
+
 
 /*=======================
     Slider Paralax 
@@ -665,9 +648,11 @@ For Slider Service
     }
 }
 
+
 /*--------------------------
 Slick Animation For Slider  
 -----------------------------*/
+
 .slick-slide {
     &.slick-current {
         .slide {
@@ -701,6 +686,7 @@ Slick Animation For Slider
     }
 }
 
+
 /*--------------------------------------
 Slider Default Button And Dot STyle
 ---------------------------------------*/
@@ -723,20 +709,18 @@ Slider Default Button And Dot STyle
             opacity: 1;
             width: 68px;
             height: 68px;
-            border: 2px solid rgba(255,255,255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.2);
             border-radius: 100%;
-
             @media #{$md-layout} {
                 display: none !important;
             }
-
             @media #{$lg-layout} {
                 display: none !important;
             }
             @media #{$sm-layout} {
                 display: none !important;
             }
-            &:hover{
+            &:hover {
                 background: #f9004d;
                 border-color: #f9004d;
             }
@@ -753,16 +737,15 @@ Slider Default Button And Dot STyle
                 @media #{$sm-layout} {
                     left: 10px;
                 }
-
-                &::before{
+                &::before {
                     content: url(/assets/images/icons/slick-arrow-left-small.png);
                 }
-                &:hover{
+                &:hover {
                     left: 30px;
                     @media #{$sm-layout} {
                         left: 20px;
                     }
-                    &::before{
+                    &::before {
                         opacity: 1;
                     }
                 }
@@ -773,7 +756,7 @@ Slider Default Button And Dot STyle
                 @media #{$sm-layout} {
                     right: 10px;
                 }
-                &::before{
+                &::before {
                     content: url(/assets/images/icons/slick-arrow-right-small.png);
                 }
                 &:hover {
@@ -781,7 +764,7 @@ Slider Default Button And Dot STyle
                     @media #{$sm-layout} {
                         right: 20px;
                     }
-                    &::before{
+                    &::before {
                         opacity: 1;
                     }
                 }
@@ -789,6 +772,7 @@ Slider Default Button And Dot STyle
         }
     }
 }
+
 
 /*--------------------
 Custom Animation  
@@ -800,7 +784,6 @@ Custom Animation
         -webkit-transform: translate3d(0, 50%, 0);
         transform: translate3d(0, 50%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -814,7 +797,6 @@ Custom Animation
         -webkit-transform: translate3d(0, 50%, 0);
         transform: translate3d(0, 50%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -827,7 +809,6 @@ Custom Animation
     animation-name: customOne;
 }
 
-
 .theme-gradient {
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -835,8 +816,9 @@ Custom Animation
 
 .thumbnail img {
     border-radius: 5px;
-    box-shadow: 0 25px 65px rgba(0,0,0,.10);
+    box-shadow: 0 25px 65px rgba(0, 0, 0, .10);
 }
+
 
 /*---------------------
     Box Model  
@@ -848,16 +830,20 @@ Custom Animation
     border-radius: 6px;
     position: relative;
 }
+
 .box-model .service-wrapper .service {
     margin: 0;
 }
+
 .box-model .service-wrapper .service .icon {
     margin: auto;
     text-align: center;
 }
+
 .box-model .service-wrapper .service .content {
     text-align: center;
 }
+
 .box-model .service-wrapper:before {
     width: 90%;
     height: 80%;
@@ -873,6 +859,7 @@ Custom Animation
     background-image: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
     filter: blur(30px);
 }
+
 .box-model .inner {
     text-align: center;
     margin-bottom: 60px;
