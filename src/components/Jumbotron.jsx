@@ -70,7 +70,7 @@ class Jumbotron extends Component {
                   <div className="col-lg-6">
                     <div className="designer-thumbnail text-center">
                       <img
-                        src="/assets/images/selfie3.jpg"
+                        src="./assets/images/B7E0D831-C13F-4070-B27E-4A4A51ECFD0B.JPEG"
                         alt="Slider Images"
                       />
                     </div>
